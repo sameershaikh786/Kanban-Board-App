@@ -1,6 +1,6 @@
 import React from 'react';
 import './Card.css';
-import '@fortawesome/fontawesome-free/css/all.min.css';
+
 
 
 function Card({ task }) {
@@ -14,14 +14,7 @@ function Card({ task }) {
           {priorityLabels[task.priority]}
         </div>
         <div className="user">{task.userId}</div>
-        <div className="alert-icon">
-          {/* {task.isFeatureRequest && ( */}
-            <>
-              <i className="fa-solid fa-exclamation alert-logo"></i>
-              {/* <span className="alert-text">Feature Request</span> */}
-            </>
-          {/* )} */}
-        </div>
+        
 
       </div>
       <h3 className="card-title">{task.title}</h3>
