@@ -63,3 +63,20 @@
   margin-right: 5px;
   margin-bottom: 5px;
 }
+
+/* Card.css */
+.alert-icon {
+  display: flex;
+  align-items: center;
+}
+
+.alert-logo {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+
+.alert-text {
+  font-weight: bold;
+  color: red; /* Adjust the color as needed */
+}
